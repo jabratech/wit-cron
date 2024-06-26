@@ -1,0 +1,5 @@
+package wasmcloud:cron;
+
+interface handler {
+    timed-invoke: func(arg: u64) -> result<_, string>;
+}
